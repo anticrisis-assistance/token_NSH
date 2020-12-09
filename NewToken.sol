@@ -4,7 +4,7 @@ import "./ERC20Standard.sol";
 
 contract NewToken is ERC20Standard {
 	constructor() public {
-		totalSupply = 300000000000000;
+		totalSupply = 30000000000000000;
 		name = "natural social human token";
 		decimals = 2;
 		symbol = "NSH";
