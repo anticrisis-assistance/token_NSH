@@ -43,11 +43,16 @@ library SafeMath {
 contract ERC20Standard {
 	using SafeMath for uint256;
 	uint public totalSupply;
+	uint public nominalPriceInUSD;
 	
 	string public name;
 	uint8 public decimals;
 	string public symbol;
 	string public version;
+	
+	string public theIssuer;
+	string public ensuringTheValueOfTokens;
+	string public goalsOfImplementingOfTokens;
 	
 	mapping (address => uint256) balances;
 	mapping (address => mapping (address => uint)) allowed;
